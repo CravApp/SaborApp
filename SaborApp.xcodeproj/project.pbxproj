@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11DA56B2A3C8F81D2FC7B8F7 /* DishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3682277097C3519E93C73F16 /* DishDetailView.swift */; };
+		1284EC1B455257CBB088EE39 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1748E2341D1CAFB3A229F7 /* MenuView.swift */; };
+		18E202BAD70FC83C2CBBBFBF /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE04AE3C42F8713BBF8B63 /* CartView.swift */; };
+		1BEE80A725B4C8B7EE4A86BA /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D773F1B13710014ECA50FAD /* AppState.swift */; };
+		20BF5C08762F2B7988935DE4 /* OrderConfirmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E2490E53288C22F713946 /* OrderConfirmedView.swift */; };
+		230C6910514C47683BFA604A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EF6605DBD1C36F299EF20 /* HomeView.swift */; };
+		24402911F3C163E7367E861B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E8A562167905955AEA5E3 /* RootView.swift */; };
+		2F0037C262343F538BB2DF91 /* SaborImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DC8B62BC15797E3F89C47C /* SaborImages.swift */; };
+		4C4C4317FF4EACEFA124D776 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F202FF63AB3ECEB7D9FFD658 /* OnboardingView.swift */; };
+		4CEC31164BE04F9FC07E373F /* SaborTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2365899CF13EAEE7DABB9 /* SaborTheme.swift */; };
+		5A8C8C6532EF4832FF06B871 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA300DFF4875074DBA0DF5 /* SignInView.swift */; };
+		699850A36309FFFD7DDF16C3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4086C7EE8ACA14E247FCF277 /* Models.swift */; };
+		76330E5664507FFEC388AE51 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B8144E488092D8BC7FFF5E /* RegisterView.swift */; };
+		931ECDDEC201A3DB859534B6 /* SaborComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06CAAAF0193EC5BF98AE0C1 /* SaborComponents.swift */; };
+		AE042D7E89ADFB697C6808BA /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADCA0EFF8D7031D7147AF48 /* TrackingView.swift */; };
+		B97EF130FE9C949766B82446 /* PlaceholderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB646AFF564B5B924F1F31 /* PlaceholderViews.swift */; };
+		BA23F3A9824C04B82DE10888 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F22F845B6286431E5CF05C /* FavoritesView.swift */; };
+		E4A71DDEE64731620E4C50E2 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61214D343A01C003922F24FB /* CheckoutView.swift */; };
+		EAAC6AE72451B56289BB74C5 /* SaborApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB3698994FE0468410BAF3 /* SaborApp.swift */; };
+		FF6BC76FE2440F3414462A9C /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3947C7E519BA19745FE77 /* MockData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044E8A562167905955AEA5E3 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		17DC8B62BC15797E3F89C47C /* SaborImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaborImages.swift; sourceTree = "<group>"; };
+		2ACB646AFF564B5B924F1F31 /* PlaceholderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViews.swift; sourceTree = "<group>"; };
+		3682277097C3519E93C73F16 /* DishDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailView.swift; sourceTree = "<group>"; };
+		4086C7EE8ACA14E247FCF277 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		44F22F845B6286431E5CF05C /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		460E2490E53288C22F713946 /* OrderConfirmedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmedView.swift; sourceTree = "<group>"; };
+		61214D343A01C003922F24FB /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		69A2365899CF13EAEE7DABB9 /* SaborTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaborTheme.swift; sourceTree = "<group>"; };
+		7D773F1B13710014ECA50FAD /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8FEF3461FA3CC8003BA9E407 /* SaborApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SaborApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B8144E488092D8BC7FFF5E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		AADCA0EFF8D7031D7147AF48 /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		AB1748E2341D1CAFB3A229F7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		ADEE04AE3C42F8713BBF8B63 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		B7AB3698994FE0468410BAF3 /* SaborApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaborApp.swift; sourceTree = "<group>"; };
+		C06CAAAF0193EC5BF98AE0C1 /* SaborComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaborComponents.swift; sourceTree = "<group>"; };
+		DCB3947C7E519BA19745FE77 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		E88EF6605DBD1C36F299EF20 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ECEA300DFF4875074DBA0DF5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F202FF63AB3ECEB7D9FFD658 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03E9130E0C5A8E07EC0F01C0 = {
+			isa = PBXGroup;
+			children = (
+				F3358F3C74937345BD5C277C /* SaborApp */,
+				FE36A46CD3EB54DA619D8FFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CA6AF626B474081B7661231 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				61214D343A01C003922F24FB /* CheckoutView.swift */,
+				460E2490E53288C22F713946 /* OrderConfirmedView.swift */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		13913468859E751A75DA5546 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E88EF6605DBD1C36F299EF20 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		28918F5E76B6C2FC79A7B589 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4086C7EE8ACA14E247FCF277 /* Models.swift */,
+				17DC8B62BC15797E3F89C47C /* SaborImages.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31919BED616AF78360D698B7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				AB1748E2341D1CAFB3A229F7 /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		4887973A07E76288B79DF803 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				ADEE04AE3C42F8713BBF8B63 /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		4A2DAA67EB11A41D65077C9D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				044E8A562167905955AEA5E3 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		4CB20FB4E37467F38A9FEFC1 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				C06CAAAF0193EC5BF98AE0C1 /* SaborComponents.swift */,
+				69A2365899CF13EAEE7DABB9 /* SaborTheme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		52CC1E9133B68EF95C162EC6 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F202FF63AB3ECEB7D9FFD658 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		648DDF7BFB393F06D451F432 /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				AADCA0EFF8D7031D7147AF48 /* TrackingView.swift */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		97EAFD541F93428D4DAA38C2 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C015B0D50520A1137C15B /* Auth */,
+				4887973A07E76288B79DF803 /* Cart */,
+				0CA6AF626B474081B7661231 /* Checkout */,
+				DE64A64A6A644BEF70FA0088 /* DishDetail */,
+				C6672BF123F2019374D6383C /* Favorites */,
+				13913468859E751A75DA5546 /* Home */,
+				31919BED616AF78360D698B7 /* Menu */,
+				52CC1E9133B68EF95C162EC6 /* Onboarding */,
+				A24B9B7BE915048B4553E214 /* Placeholders */,
+				4A2DAA67EB11A41D65077C9D /* Root */,
+				648DDF7BFB393F06D451F432 /* Tracking */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A24B9B7BE915048B4553E214 /* Placeholders */ = {
+			isa = PBXGroup;
+			children = (
+				2ACB646AFF564B5B924F1F31 /* PlaceholderViews.swift */,
+			);
+			path = Placeholders;
+			sourceTree = "<group>";
+		};
+		A97BDB347EE2E17FB07B1D23 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				7D773F1B13710014ECA50FAD /* AppState.swift */,
+				DCB3947C7E519BA19745FE77 /* MockData.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		C6672BF123F2019374D6383C /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				44F22F845B6286431E5CF05C /* FavoritesView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		DA9C015B0D50520A1137C15B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8144E488092D8BC7FFF5E /* RegisterView.swift */,
+				ECEA300DFF4875074DBA0DF5 /* SignInView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		DE64A64A6A644BEF70FA0088 /* DishDetail */ = {
+			isa = PBXGroup;
+			children = (
+				3682277097C3519E93C73F16 /* DishDetailView.swift */,
+			);
+			path = DishDetail;
+			sourceTree = "<group>";
+		};
+		F3358F3C74937345BD5C277C /* SaborApp */ = {
+			isa = PBXGroup;
+			children = (
+				B7AB3698994FE0468410BAF3 /* SaborApp.swift */,
+				4CB20FB4E37467F38A9FEFC1 /* DesignSystem */,
+				97EAFD541F93428D4DAA38C2 /* Features */,
+				28918F5E76B6C2FC79A7B589 /* Models */,
+				A97BDB347EE2E17FB07B1D23 /* Stores */,
+			);
+			path = SaborApp;
+			sourceTree = "<group>";
+		};
+		FE36A46CD3EB54DA619D8FFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FEF3461FA3CC8003BA9E407 /* SaborApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CA89820C92497BDD77FE525 /* SaborApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5FA99711A1782A2BB82B53 /* Build configuration list for PBXNativeTarget "SaborApp" */;
+			buildPhases = (
+				0489194CACC22325880C4452 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaborApp;
+			packageProductDependencies = (
+			);
+			productName = SaborApp;
+			productReference = 8FEF3461FA3CC8003BA9E407 /* SaborApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		931FCF5B0CA92984E8A03D8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3CA89820C92497BDD77FE525 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 432896441C31749077B675AA /* Build configuration list for PBXProject "SaborApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 03E9130E0C5A8E07EC0F01C0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FE36A46CD3EB54DA619D8FFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CA89820C92497BDD77FE525 /* SaborApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0489194CACC22325880C4452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEE80A725B4C8B7EE4A86BA /* AppState.swift in Sources */,
+				18E202BAD70FC83C2CBBBFBF /* CartView.swift in Sources */,
+				E4A71DDEE64731620E4C50E2 /* CheckoutView.swift in Sources */,
+				11DA56B2A3C8F81D2FC7B8F7 /* DishDetailView.swift in Sources */,
+				BA23F3A9824C04B82DE10888 /* FavoritesView.swift in Sources */,
+				230C6910514C47683BFA604A /* HomeView.swift in Sources */,
+				1284EC1B455257CBB088EE39 /* MenuView.swift in Sources */,
+				FF6BC76FE2440F3414462A9C /* MockData.swift in Sources */,
+				699850A36309FFFD7DDF16C3 /* Models.swift in Sources */,
+				4C4C4317FF4EACEFA124D776 /* OnboardingView.swift in Sources */,
+				20BF5C08762F2B7988935DE4 /* OrderConfirmedView.swift in Sources */,
+				B97EF130FE9C949766B82446 /* PlaceholderViews.swift in Sources */,
+				76330E5664507FFEC388AE51 /* RegisterView.swift in Sources */,
+				24402911F3C163E7367E861B /* RootView.swift in Sources */,
+				EAAC6AE72451B56289BB74C5 /* SaborApp.swift in Sources */,
+				931ECDDEC201A3DB859534B6 /* SaborComponents.swift in Sources */,
+				2F0037C262343F538BB2DF91 /* SaborImages.swift in Sources */,
+				4CEC31164BE04F9FC07E373F /* SaborTheme.swift in Sources */,
+				5A8C8C6532EF4832FF06B871 /* SignInView.swift in Sources */,
+				AE042D7E89ADFB697C6808BA /* TrackingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B60252ED18FE30D20AB158E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF9AC9CD1AAAA805AD0B1BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SaborApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cravapp.saborapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E323645E2065CE730710AE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4F2AADE59551D03939FF1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SaborApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cravapp.saborapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432896441C31749077B675AA /* Build configuration list for PBXProject "SaborApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E323645E2065CE730710AE11 /* Debug */,
+				B60252ED18FE30D20AB158E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E5FA99711A1782A2BB82B53 /* Build configuration list for PBXNativeTarget "SaborApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F2AADE59551D03939FF1F1 /* Debug */,
+				DF9AC9CD1AAAA805AD0B1BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 931FCF5B0CA92984E8A03D8B /* Project object */;
+}
